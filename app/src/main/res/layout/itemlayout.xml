@@ -7,9 +7,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/tvName"
+        app:layout_constraintTop_toTopOf="parent"
         android:textSize="40dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
         android:text="@string/Enter_the_value"/>
     <EditText
         android:layout_width="match_parent"
